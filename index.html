@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f6f5c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Free IELTS">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Free IELTS Prep</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f6f5c'/%3E%3Ctext x='16' y='21' font-size='13' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3EIE%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <button class="btn sm" id="menuBtn" aria-label="Open menu">☰</button>
+      <strong>Free IELTS Prep</strong>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="brand-mark">IE</span> Free IELTS Prep</div>
+      <nav class="nav" id="nav">
+        <a href="#/" data-route="">Dashboard</a>
+        <a href="#/plan" data-route="plan">Study plan</a>
+        <div class="nav-section">Practice</div>
+        <a href="#/listening" data-route="listening"><span class="dot" style="background:var(--listen)"></span>Listening</a>
+        <a href="#/reading" data-route="reading"><span class="dot" style="background:var(--read)"></span>Reading</a>
+        <a href="#/writing" data-route="writing"><span class="dot" style="background:var(--write)"></span>Writing</a>
+        <a href="#/speaking" data-route="speaking"><span class="dot" style="background:var(--speak)"></span>Speaking</a>
+        <div class="nav-section">Review</div>
+        <a href="#/vocab" data-route="vocab">Vocabulary &amp; flashcards</a>
+        <a href="#/progress" data-route="progress">Progress</a>
+        <div class="nav-section">Learn</div>
+        <a href="#/guide" data-route="guide">Exam guide &amp; tips</a>
+        <a href="#/grammar" data-route="grammar">Grammar</a>
+        <a href="#/writetypes" data-route="writetypes">Writing task types</a>
+        <a href="#/settings" data-route="settings">Settings &amp; backup</a>
+      </nav>
+      <div class="sidebar-foot">
+        <p class="small muted" style="margin:0 0 8px">Free for every student. Made by <a href="https://taingayting.github.io/portfolio/" target="_blank" rel="noopener">Taing Ayting</a>.</p>
+        <button class="btn sm" id="themeBtn">Theme</button>
+      </div>
+    </aside>
+
+    <main class="main" id="main"></main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/grade.js"></script>
+  <script src="js/vocab-data.js"></script>
+  <script src="js/grammar-data.js"></script>
+  <script src="js/writing-types.js"></script>
+  <script src="js/richtext.js"></script>
+  <script src="js/pictures.js"></script>
+  <script src="js/pron.js"></script>
+  <script src="js/ai.js"></script>
+  <script src="js/explain.js"></script>
+  <script src="js/reader.js"></script>
+  <script src="js/learn.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "Free IELTS Prep",
+  "short_name": "IELTS Prep",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#16181d",
+  "theme_color": "#1f6f5c",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
